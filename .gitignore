@@ -1,0 +1,14 @@
+# Test repo: only the .asp files in this top folder are tracked.
+# Ignore everything at the top level (including all subfolders)...
+/*
+
+# ...except the .asp files and this file itself
+!/*.asp
+!/.gitignore
+
+# Pages with an email password typed into them -- keep these local only
+/leaving-byu.asp
+/leaving--byu.asp
+/logit.asp
+/retirement.asp
+/retirement_short.asp
